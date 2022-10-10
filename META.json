@@ -1,0 +1,62 @@
+{
+   "abstract" : "Perl interface to libpng",
+   "author" : [
+      "Ben Bullock <bkb@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.44, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Image-PNG-Libpng",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc",
+         "tmpl",
+         "build",
+         "inc"
+      ],
+      "file" : [
+         "t/IPNGLT.pm"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/benkasminbullock/image-png-libpng/issues"
+      },
+      "repository" : {
+         "url" : "https://github.com/benkasminbullock/image-png-libpng"
+      }
+   },
+   "version" : "0.57",
+   "x_contributors" : [
+      "Aaron Crane <arc@cpan.org>",
+      "Greg Kennedy <gregk@cpan.org>",
+      "Petr Pisar",
+      "Phil Perry <pmperry@cpan.org>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 4.04"
+}

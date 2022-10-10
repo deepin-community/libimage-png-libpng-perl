@@ -1,0 +1,78 @@
+libimage-png-libpng-perl (0.57-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove $Config{vendorarch} from debian/rules.
+    Causes issues with cross-buils, and can be replaced by
+    `find … -delete'.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 03 Nov 2021 17:20:43 +0100
+
+libimage-png-libpng-perl (0.57-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.57.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Install new example scripts as example and not into
+    $Config{vendorarch}.
+  * Add a lintian override.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 17 Sep 2021 01:43:18 +0200
+
+libimage-png-libpng-perl (0.56-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.56.
+  * Add debian/tests/pkg-perl/smoke-files.
+    Tests now use files from examples/.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 23 Dec 2020 02:11:51 +0100
+
+libimage-png-libpng-perl (0.53-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.53.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 18 Dec 2020 23:56:28 +0100
+
+libimage-png-libpng-perl (0.52-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.52.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 16 Dec 2020 20:24:20 +0100
+
+libimage-png-libpng-perl (0.50-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.50.
+  * Install new upstream CONTRIBUTING file.
+  * Add explicit build dependency on zlib1g-dev.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 12 Dec 2020 17:17:43 +0100
+
+libimage-png-libpng-perl (0.48-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.48.
+  * Add new ppport.h to debian/copyright
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 26 Nov 2020 19:31:12 +0100
+
+libimage-png-libpng-perl (0.47-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only upload.
+  * Fix hashbangs of example scripts in debian/rules.
+  * Update debian/upstream/metadata.
+  * Add build dependency on libpng-dev.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 25 Oct 2020 13:44:35 +0100
+
+libimage-png-libpng-perl (0.47-1) unstable; urgency=low
+
+  * Initial release.
+    Closes: #972242
+
+ -- Jeffrey Ratcliffe <jjr@debian.org>  Thu, 15 Oct 2020 09:03:09 +0200

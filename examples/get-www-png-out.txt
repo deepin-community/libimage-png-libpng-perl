@@ -1,0 +1,7 @@
+{
+	"bit_depth":4,
+	"color_type":3,
+	"height":31,
+	"interlace_method":0,
+	"width":88
+}

@@ -1,0 +1,2 @@
+# bhlc and manual inspection of the build logs disagree
+libimage-png-libpng-perl: hardening-no-fortify-functions usr/lib/*/perl5/*/auto/Image/PNG/Libpng/Libpng.so
